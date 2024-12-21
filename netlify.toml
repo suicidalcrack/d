@@ -1,0 +1,23 @@
+[[redirects]]
+  from = "/"
+  to = "/status"
+  status = 301
+  force = false
+  query = {path = ":path"} #  apply this rule for /old-path?path=example
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/"
+  to = "/forums"
+  status = 301
+  force = false
+  query = {path = ":path"} #  apply this rule for /old-path?path=example
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/"
+  to = "/invite"
+  status = 301
+  force = false
+  query = {path = ":path"} #  apply this rule for /old-path?path=example
+  conditions = {Language = ["en","es"], Country = ["US"]}

@@ -1,0 +1,2 @@
+/status status.html
+/forums forums.html
